@@ -1,0 +1,26 @@
+name: Custom bug
+description: Report an custom error to import our project.
+title: '[BUG]'
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      id: description
+      description: A brief description of the issue or bug you are facing, also include what you tried and what didn't work.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+        label: Steps to Reproduce
+        id: steps_to_reproduce
+        description: How to reproduce the issue. Include as much detail as possible.
+    validations:
+        required: true
+  - type: textarea
+    attributes:
+        label: Screenshots
+        id: screenshots
+        description: Please add screenshots if applicable
+    validations:
+        required: false
